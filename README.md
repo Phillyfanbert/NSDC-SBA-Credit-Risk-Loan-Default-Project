@@ -1,15 +1,13 @@
 # NSDC-SBA-Credit-Risk-Loan-Default-Project
-# SBA Loan Default Prediction: Machine Learning for Credit Risk
-
-## 📌 Project Overview
+## Project Overview
 Developed a robust machine learning classification system to predict small business loan default risk (**Charged-Off** vs. **Paid-in-Full**) using historical National Small Business Administration (SBA) data. This project aims to enhance risk assessment, minimize financial losses, and enable data-driven lending decisions for financial institutions.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, SHAP, Matplotlib, Seaborn
 * **Techniques:** Classification, Hyperparameter Tuning (RandomizedSearchCV), SHAP Interpretability, Feature Engineering
 
-## 🚀 Key Features & Workflow
+## Key Features & Workflow
 
 ### 1. Data Engineering & Preprocessing
 * **Leakage Prevention:** Identified and removed features not available at the time of loan application to ensure model validity.
@@ -30,12 +28,12 @@ Tested multiple supervised learning algorithms to optimize predictive performanc
 * Leveraged **SHAP (SHapeley Additive exPlanations)** to provide transparency.
 * Used **Summary Plots** to rank global feature importance and **Dependence Plots** to visualize how individual attributes (like loan term or number of employees) influence the probability of default.
 
-## 📊 Summary of Findings
+## Summary of Findings
 * **Primary Drivers:** Loan structure (term/amount) and economic timing (approval year) are the strongest predictors of default.
 * **Industry Risk:** Specific business sectors and characteristics significantly influence baseline credit risk levels.
 * **Model Performance:** Ensemble methods significantly outperformed linear models, proving that default risk is driven by complex, multi-factor relationships.
 
-## 📁 Repository Content
+## Repository Content
 * `CreditRisk_NSDCProject.ipynb`: Full Python implementation and model training.
 * `NSDC Credit Risk Presentation`: Slide deck summarizing business insights.
 * `WinterQ NSDC Full Project Timeline`: Detailed documentation of project phases.
